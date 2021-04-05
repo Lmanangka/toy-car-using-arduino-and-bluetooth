@@ -9,7 +9,7 @@ Controlling robot using android device
 * Driver Motor L298N
 
 ## Block Diagram
-![Image of Block Diagram](https://github.com/Lmanangka/bluetooth-controlled-robot/blob/master/img/Block-Diagram.png?raw=true)
+![Image of Block Diagram](https://github.com/Lmanangka/bluetooth-controlled-robot/blob/master/img/Block-Diagram.jpg?raw=true)
 
 Arduino -----------> Driver Motor
 * D3 --------------> IN1
