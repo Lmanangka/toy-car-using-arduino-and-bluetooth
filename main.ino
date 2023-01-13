@@ -1,5 +1,5 @@
-#define TRIG 7 //define trigger
-#define ECHO 8 //define echo
+//#define TRIG 7 //define trigger
+//#define ECHO 8 //define echo
 const int IN[] = {6, 9, 10, 11}; //define driver motor IN1-4
 
 long t; //variable time
@@ -7,6 +7,7 @@ float s; // variable distance
 int v = 150;
 
 void setup() {
+  //set a serial to baudrate 38400 to received data.
   Serial.begin(38400);
   for(int in=0; in<4; in++){ // set pins IN1-4 as OUTPUT
     pinMode(IN[in], OUTPUT);
@@ -16,6 +17,8 @@ void setup() {
 }
 
 void loop() {
+    /* logic to wait for bluetooth data to received a data in this case it will
+    received a single char. */
   if(Serial.available() > 0){
     char tx = Serial.read();
     if(tx == 'w'){

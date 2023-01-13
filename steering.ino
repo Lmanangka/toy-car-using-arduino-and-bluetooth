@@ -1,3 +1,4 @@
+/* This is a function to steer RC car */
 void fwd(int pwm1, int pwm2){
   analogWrite(IN[0], pwm1);
   analogWrite(IN[1], LOW);
