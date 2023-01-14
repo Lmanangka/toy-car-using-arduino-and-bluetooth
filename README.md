@@ -14,7 +14,7 @@ beginner to learn about arduino, serial connection and electronics.
 
 ## Block Diagram
 
-![Image of Block Diagram](https://github.com/Lmanangka/bluetooth-controlled-robot/blob/master/img/Block-Diagram.jpg?raw=true)
+![Image of Block Diagram](https://github.com/Lmanangka/toy-car-using-arduino-and-bluetooth/blob/master/img/Block-Diagram.jpg?raw=true)
 
 Arduino --------------> Driver Motor
 
